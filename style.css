@@ -1,0 +1,311 @@
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: none;
+  background-color: #007bff; /* Choose your desired button background color */
+  color: #fff; /* Choose your desired button text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+
+.header-top {
+    background-color: #022873; 
+    color: #fff;
+    padding: 10px ; 
+  }  
+
+.header-top.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar {
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
+  }
+  
+.contact-list {
+    display: flex; 
+    margin-left: 30px;
+    }
+
+.social-list {
+    display: flex; 
+    margin-right: 30px;
+  }
+
+.contact-link{
+    text-decoration: none; 
+    color: white; 
+  }
+
+/* ************************************************************************** */
+.header-bottom {
+    background-color: #C7D1D9; 
+    color: black; 
+    padding: 5px ; 
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  }
+
+.navbar-lower {
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
+    padding: 5px ; 
+      
+  }
+
+.logo{
+    text-decoration: none; 
+    text-transform: uppercase;
+    margin-left: 50px;
+    color: black; 
+    font-size: 40px; 
+
+  }
+
+.navbar-list {
+   list-style: none;
+    display: flex; 
+    align-items: center; 
+    margin-top: 15px;
+    margin-left: 700px;
+}
+
+.navbar-link {
+    text-decoration: none; 
+    color: black; 
+    font-size: 18px
+
+  }
+
+button {
+    background-color: #035AA6; 
+    color: #fff; 
+    border: none;
+    padding: 10px 30px ; 
+    border-radius: 10px; 
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block; /* Display the button as an inline block */
+    text-align: center; /* Center-align the text within the button */
+
+  }
+  
+button:hover {
+  background-color: #022873; 
+}
+  
+button a {
+  text-decoration: none; 
+  color:  #fff; 
+}
+  
+/* ************************************************************************** */
+.section-home {
+    background-color: #C7D1D9; 
+    padding: 10px; 
+    text-align: center;
+  }
+  
+.content-subtitle{
+    margin-left: 60px;
+    margin-top: -200px;
+    font-size: 40px; 
+    color: black; 
+
+}
+
+.content-title{
+    margin-left: 60px;
+    font-size: 80px; 
+    color: #007bff; 
+    margin-bottom: 30px;
+}
+
+.content-text{
+    margin-left: 60px;
+    font-size: 20px;
+    color: black; 
+    margin-bottom: 20px;
+}
+
+.content-form{
+    margin-left: 60px;
+}
+
+.email-field {
+    width: 30%; 
+    padding: 8px;
+    margin-right: 2px; 
+  }
+
+/***************************************************************************/  
+.section-services {
+  background-color: #f4f4f4; 
+  padding: 20px ; 
+  text-align: center; 
+}
+  
+.services-subtitle {
+  font-size: 40px; 
+  color: black; 
+}
+  
+.services-title {
+  font-size: 60px;
+  color: #007bff; 
+  margin-top: 20px; 
+}
+  
+.service-list {
+  list-style: none; 
+  display: flex; 
+  justify-content: space-between; 
+  padding: 20px ; 
+}
+  
+.service-card {
+  background-color: #fff; 
+  padding: 20px; 
+  border-radius: 8px; 
+  margin-left: 30px;
+}
+
+.card-icon img {
+  width: 100px; 
+  height: 100px;
+  display: block; 
+  margin: 0 auto; /* Center the icon horizontally */
+}
+  
+.card-title {
+  font-size: 24px; 
+  color: black; 
+  margin-top: 15px; 
+}
+  
+.card-text {
+  font-size: 19px; 
+  color: #666; 
+  margin-top: 10px; 
+  text-align: left; 
+}
+
+/******************************************************************************************/
+body, h1, h2, h3, p, ul, li, figure {
+  margin: 0;
+  padding: 0;
+}
+
+.section-about-us {
+  background-color: #f4f4f4;
+  padding: 40px; 
+  text-align: center; 
+}
+
+.about-banner img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+.about-us-subtitle {
+  font-size: 40px;
+  color: #333; 
+}
+
+.about-us-title {
+  font-size: 60px; 
+  color: #007bff; 
+  margin-top: 20px; 
+}
+
+.about-us-text {
+  font-size: 19px; 
+  color: #666; 
+  margin-top: 20px; 
+  text-align: left; /* Align text to the left */
+  margin-left: 50px;
+}
+
+/******************************************************************************************/
+
+.footer {
+  background-color: #022873; 
+  color: #fff; 
+  padding: 40px ; 
+  text-align: center; 
+  }
+
+.footer-brand {
+  text-align: left; 
+  margin-left: 20px;
+}
+
+.logo {
+  text-decoration: none;
+  color: black; 
+  font-weight: bold;
+}
+
+.footer-text {
+  font-size: 16px; 
+  color: #ccc; 
+  margin-top: 20px; 
+}
+
+.footer-schedule {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  margin-top: 20px; 
+}
+
+.footer-list {
+  flex: 1; /* Allow the footer-list to expand within the container */
+  text-align: left; /* Left-align the text content */
+  list-style: none;
+  margin-left: 120px;
+}
+  
+.footer-list-title {
+  font-size: 18px; 
+  color: #fff; 
+  font-weight: bold;
+  margin-top: 20px; /* Add space between list items */
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #ccc; 
+  display: block; /* Display the list links as block elements */
+  margin-top: 20px;
+}
+
+.footer-contact {
+  flex: 1; /* Allow the footer-contact to expand within the container */
+  text-align: left; 
+  list-style: none;
+}
+
+.footer-contact .footer-link {
+  text-decoration: none;
+  color: #ccc; 
+  display: block; 
+}
+
+.footer-link:hover {
+  color: #007bff; 
+}

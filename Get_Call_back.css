@@ -1,0 +1,71 @@
+body, h1, h2, h3, p, ul, li, a, form, label, input, select {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border: 2px solid black;
+    border-radius: 20px;
+
+  }
+  
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  label {
+
+    margin-top: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  input[type="text"],
+  input[type="radio"],
+  select {
+    width: 25%;
+    padding: 9px;
+    margin-top: 10px;
+    border: 1px ridge black;
+    border-radius: 10px;
+
+  }
+
+  input[type="radio"] {
+    margin-left: -70px;
+    margin-right: 80px ;
+  }
+
+  button.registerbtn {
+    width: 100%;
+    padding: 9px;
+    background-color: #035AA6;
+    color: #fff;
+    border-radius: 10px;
+
+
+  }
+  button:hover {
+    background-color: #022873; /* Darker background color on hover */
+  }
+
+  hr {
+    margin-top: 11px ;
+
+  }
